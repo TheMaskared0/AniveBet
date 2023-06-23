@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar</title>
+    <link rel="stylesheet" href="style_iniciar.css">
+</head>
+<body background="imagens/arquivos-necessarios-projetos-unes/arquivos-necessarios-projetos-unes/fundo.png">
+    <table border="0" width="900" align="center">
+        <tr>
+            <td>
+                <img src="imagens/AniveBet logo.png">
+            </td>
+            <td align="right">
+                <a href="home.html">Home</a> |
+                <a href="contatos.html">Contatos</a>
+            </td>
+        </tr>
+        <tr>
+           <td height="150px">
+            <label for="age">Qual é o dia e o mês do seu Aniversário?</label>
+            <input  type="number" id="age"> </br>
+            <label for="name" id="name'">Qual é o seu nome e o sobrenome?</label>
+            <input type="text" id="name"> </br>
+            <label for="photo">Faça o upload da foto</label>
+            <input type="file" id="image-input">       
+        </td>
+        </tr>
+        <tr id="button-generate">
+           <td   height="10px"> 
+                <button onclick="generateimage()">Gerar Imagem</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Imagem gerada</h2>
+                <div onclick="teste()">Botao</div> </br>
+                <img id="image-preview" src="" alt="imagem-gerada">
+            </td>
+        </tr>
+    </table>
+    </body>
+<script src="script.js"></script>
+</html>

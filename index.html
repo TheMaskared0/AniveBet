@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniveBet</title>
+    <link rel="stylesheet" href="style_home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Great+Vibes&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body background="imagens/arquivos-necessarios-projetos-unes/arquivos-necessarios-projetos-unes/fundo2.png">
+    <table border="0" width="900" align="center">
+        <tr id='cab'>
+            <td> <img src="imagens/AniveBet logo.png"> </td>
+            <td  align="right">
+                <a  href="home.html">Home</a> |
+                <a href="iniciar.html">Iniciar</a> |
+                <a href="contatos.html">Contatos</a>
+            </td>
+        </tr>
+        <tr>
+            <td  colspan="2">
+                <img src="imagens/Aniversários.png">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>Aniversário Template</h2>
+                <h5 id="welcome">a</h5>
+                <p>O <strong>Aniversário Template</strong> é uma ferramenta criada 
+                    para auxiliar a criação de posters comemorativos de 
+                    Aniversários para <em>Instagram</em>
+                </p>
+            </td>    
+        </tr>
+        <tr >
+            <td colspan="2" align="center">
+                <a href="Iniciar.html"  id="botao-iniciar">Iniciar</a>
+            </td>
+        </tr>
+        <tr>
+            <td  colspan="2" align="center">
+            <h4>Direitos Reservados</h4>
+            </td>
+        </tr>
+<script>
+        const wel = () => {
+        let today = new Date();
+        let day = today.getHours();
+        if (day <= 12) return 'Bom Dia';          
+        if (day <= 18) return 'Boa Tarde';  
+        return 'Boa Noite'
+    }  
+        let welcome = document.getElementById('welcome');
+        welcome.innerText = wel();
+       wel()
+</script>
+    </table>
+</body>
+</html>

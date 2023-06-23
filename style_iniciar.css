@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(126, 182, 185);
+}
+
+
+#button-generate{
+    margin-top: 40px;
+    color: rgb(47, 128, 101);
+
+}
+
+#cab{
+  font-family: 'Roboto', sans-serif;
+}

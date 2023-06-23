@@ -1,0 +1,18 @@
+#botao-iniciar {
+   
+    font: normal 50pt calibri;
+    color: rgb(138, 32, 138);
+    text-align: center;
+    border: 4px;
+    font-family: 'Great Vibes', cursive;
+}
+
+
+
+
+h2, h5, p{
+ 
+     font-family: 'Roboto', sans-serif;
+     color: blueviolet;
+    }
+
